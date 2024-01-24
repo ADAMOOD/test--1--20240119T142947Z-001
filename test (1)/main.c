@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 typedef enum
 {
     Rock,
@@ -30,10 +31,10 @@ typedef enum
     GeorgiaEllery,
 } Names;
 
-typedef union
+typedef enum
 {
-    int male;
-    int female;
+     male,
+     female,
 } Gender;
 
 typedef struct
@@ -57,6 +58,7 @@ void PrintInfoAboutBand(Band b);
 void fillMembers(member *m, int num);
 void fillBands(Band *b, int num);
 int GetRandomNumInrange(int lowerBorder, int upperBorder);
+char getSex(Gender g);
 float GetBandRating(Band b);
 int main()
 {
@@ -72,6 +74,7 @@ int main()
     fillBands(bands, bNumber);
     for (int i = 0; i < bNumber; i++)
     {
+        printf("Band number %d:\n", i + 1);
         PrintInfoAboutBand(bands[i]);
     }
 
@@ -84,27 +87,50 @@ int main()
 }
 void PrintInfoAboutBand(Band b)
 {
-    printf("Band Information:\n");
     printf("Genre: %s\n", getGenreName(b.genre));
     printf("Rating: %.2f\n", b.rating);
 
     printf("\nMembers:\n");
-    for (int i = 0; i < 35; i++)
+    for (int i = 0; i < 40; i++)
     {
-        printf("_");
+
+            printf("_");
     }
-
-    printf("\n\|%-30s\|%-3s\|\n", "Name", "Age");
-
-    for (int i = 0; i < b.membersnum; i++)
+    printf("\n\|%-30s\|%-3s\|%-3s\|\n", "Name", "Age", "Sex");
+    printf("\|");
+    for (int i = 0; i < 38; i++)
     {
-        printf("\|%-30s\|%-3d\|\n\|", getMusicianName(b.members[i].name), b.members[i].age);
-        for (int i = 0; i < 34; i++)
+        if(i==30||i==34)
+        {
+            printf("|");
+        }
+        else
         {
             printf("-");
         }
-        printf("\|\n");
     }
+    printf("\|\n");
+
+    for (int i = 0; i < b.membersnum; i++)
+    {
+        printf("\|%-30s\|%-3d\|%-3c\|\n", getMusicianName(b.members[i].name), b.members[i].age, getSex(b.members[i].sex) );
+    }
+
+    for (int i = 0; i < 40; i++)
+    {
+        printf("*");
+    }
+    printf("\n");
+     printf("\a");
+
+}
+char getSex(Gender g)
+{
+    if(g==female)
+    {
+        return 'f';
+    }
+    return 'm';
 }
 void fillBands(Band *b, int num)
 {
@@ -140,13 +166,13 @@ void fillMembers(member *m, int num)
     {
         m[n].name = (Names)GetRandomNumInrange(1, 13);
         m[n].age = GetRandomNumInrange(20, 60);
-        if (GetRandomNumInrange(0, 1) == 0)
+        if (GetRandomNumInrange(0, 100)%2==0)
         {
-            m[n].sex.male = 1;
+            m[n].sex=male;
         }
         else
         {
-            m[n].sex.female = 1;
+            m[n].sex=female;
         }
     }
 }
