@@ -52,6 +52,7 @@ typedef struct
     float rating;
     Genre genre;
 } Band;
+const char *GetRandomstring();
 const char *getGenreName(Genre genre);
 const char *getMusicianName(Names musician);
 void PrintInfoAboutBand(Band b);
@@ -113,7 +114,7 @@ void PrintInfoAboutBand(Band b)
 
     for (int i = 0; i < b.membersnum; i++)
     {
-        printf("\|%-30s\|%-3d\|%-3c\|\n", getMusicianName(b.members[i].name), b.members[i].age, getSex(b.members[i].sex) );
+        printf("\|%-30s\|%-3d\|%-3c\|%-7s\|\n", getMusicianName(b.members[i].name), b.members[i].age, getSex(b.members[i].sex),b.members[i].role );
     }
 
     for (int i = 0; i < 40; i++)
@@ -121,7 +122,7 @@ void PrintInfoAboutBand(Band b)
         printf("*");
     }
     printf("\n");
-     printf("\a");
+    printf("\a");
 
 }
 char getSex(Gender g)
@@ -166,6 +167,7 @@ void fillMembers(member *m, int num)
     {
         m[n].name = (Names)GetRandomNumInrange(1, 13);
         m[n].age = GetRandomNumInrange(20, 60);
+        m[n].role=GetRandomstring();
         if (GetRandomNumInrange(0, 100)%2==0)
         {
             m[n].sex=male;
@@ -175,6 +177,19 @@ void fillMembers(member *m, int num)
             m[n].sex=female;
         }
     }
+}
+const char *GetRandomstring()
+{
+    int length=GetRandomNumInrange(3,7);
+    char *role;
+    if((role=(char*)malloc(sizeof(char)*length))==NULL)
+    {
+        return NULL;
+    }
+    for(int i=0;i<length;i++){
+        role[i]=(char)GetRandomNumInrange(65,90);
+    }
+    return *role;
 }
 int GetRandomNumInrange(int lowerBorder, int upperBorder)
 {
