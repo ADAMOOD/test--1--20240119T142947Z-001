@@ -52,7 +52,7 @@ typedef struct
     float rating;
     Genre genre;
 } Band;
-const char *GetRandomstring();
+char *GetRandomstring();
 const char *getGenreName(Genre genre);
 const char *getMusicianName(Names musician);
 void PrintInfoAboutBand(Band b);
@@ -88,20 +88,21 @@ int main()
 }
 void PrintInfoAboutBand(Band b)
 {
+    int tableWidth=46;
     printf("Genre: %s\n", getGenreName(b.genre));
     printf("Rating: %.2f\n", b.rating);
 
     printf("\nMembers:\n");
-    for (int i = 0; i < 40; i++)
+    for (int i = 0; i < tableWidth+2; i++)
     {
 
             printf("_");
     }
-    printf("\n\|%-30s\|%-3s\|%-3s\|\n", "Name", "Age", "Sex");
+    printf("\n\|%-30s\|%-3s\|%-3s\|%-7s\|\n", "Name", "Age", "Sex","Role");
     printf("\|");
-    for (int i = 0; i < 38; i++)
+    for (int i = 0; i < tableWidth; i++)
     {
-        if(i==30||i==34)
+        if(i==30||i==34||i==38)
         {
             printf("|");
         }
@@ -117,7 +118,7 @@ void PrintInfoAboutBand(Band b)
         printf("\|%-30s\|%-3d\|%-3c\|%-7s\|\n", getMusicianName(b.members[i].name), b.members[i].age, getSex(b.members[i].sex),b.members[i].role );
     }
 
-    for (int i = 0; i < 40; i++)
+    for (int i = 0; i < tableWidth+2; i++)
     {
         printf("*");
     }
@@ -178,7 +179,7 @@ void fillMembers(member *m, int num)
         }
     }
 }
-const char *GetRandomstring()
+char *GetRandomstring()
 {
     int length=GetRandomNumInrange(3,7);
     char *role;
@@ -189,7 +190,7 @@ const char *GetRandomstring()
     for(int i=0;i<length;i++){
         role[i]=(char)GetRandomNumInrange(65,90);
     }
-    return *role;
+    return role;
 }
 int GetRandomNumInrange(int lowerBorder, int upperBorder)
 {
