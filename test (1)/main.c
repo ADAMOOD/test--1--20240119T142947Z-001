@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h> 
+#include <string.h>
 
 typedef enum
 {
@@ -52,6 +53,7 @@ typedef struct
     float rating;
     Genre genre;
 } Band;
+char *GetInfoAboutBand(Band b);
 char *GetRandomstring();
 const char *getGenreName(Genre genre);
 const char *getMusicianName(Names musician);
@@ -73,18 +75,75 @@ int main()
         return -1;
     }
     fillBands(bands, bNumber);
+        FILE *file;
+   file= fopen("file.txt","w");
     for (int i = 0; i < bNumber; i++)
     {
         printf("Band number %d:\n", i + 1);
         PrintInfoAboutBand(bands[i]);
+         fprintf(file,"%s",GetInfoAboutBand(bands[i]));
     }
-
+    fclose(file);
     for (int i = 0; i < bNumber; i++)
     {
         free(bands[i].members);
     }
     free(bands);
     return 0;
+}
+char *GetInfoAboutBand(Band b)
+{
+    int tableWidth = 46;
+    char *result = (char *)malloc(1); // Vytvoření dynamického řetězce
+
+    // Funkce pro přidání řetězce do výsledného textu
+    void appendString(const char *str)
+    {
+        result = (char *)realloc(result, strlen(result) + strlen(str) + 1); // Zvětšení paměti pro řetězec
+        strcat(result, str); // Přidání řetězce na konec
+    }
+
+    appendString("Genre: ");
+    appendString(getGenreName(b.genre));
+    appendString("\nRating: ");
+    char ratingStr[10];
+    sprintf(ratingStr, "%.2f", b.rating);
+    appendString(ratingStr);
+    appendString("\n\nMembers:\n");
+
+    for (int i = 0; i < tableWidth + 2; i++)
+    {
+        appendString("_");
+    }
+    appendString("\n|%-30s|%-3s|%-3s|%-7s|\n");
+    appendString("|");
+    for (int i = 0; i < tableWidth; i++)
+    {
+        if (i == 30 || i == 34 || i == 38)
+        {
+            appendString("|");
+        }
+        else
+        {
+            appendString("-");
+        }
+    }
+    appendString("|\n");
+
+    for (int i = 0; i < b.membersnum; i++)
+    {
+        char memberInfo[100]; // Předpokládám, že maximální délka jednoho řádku bude 100 znaků
+        sprintf(memberInfo, "|%-30s|%-3d|%-3c|%-7s|\n", getMusicianName(b.members[i].name), b.members[i].age, getSex(b.members[i].sex), b.members[i].role);
+        appendString(memberInfo);
+    }
+
+    for (int i = 0; i < tableWidth + 2; i++)
+    {
+        appendString("*");
+    }
+    appendString("\n");
+
+    return result;
 }
 void PrintInfoAboutBand(Band b)
 {
