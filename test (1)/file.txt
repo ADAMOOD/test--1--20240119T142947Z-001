@@ -1,0 +1,282 @@
+Genre: Unknown
+Rating: 4.84
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Colin Greenwood               |42 |f  |BJHMISW|
+|Luke Mark                     |57 |f  |TUHCMY­|
+|Tyler Hyde                    |33 |f  |HDFQFI­|
+|Isaac Wood                    |37 |f  |AEFLÀ  |
+************************************************
+Genre: Electronic Dance Music
+Rating: 6.27
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Jonny Greenwood               |53 |f  |HVARÀ  |
+|Cameron Picton                |48 |f  |AMRAPND|
+|Tyler Hyde                    |52 |f  |HHIDF  |
+|Luke Mark                     |34 |f  |LFJ    |
+|Morgan Simpson                |26 |f  |WUETWSE|
+|Philip Selway                 |34 |m  |VXE    |
+|Jonny Greenwood               |58 |f  |CTXCSMF|
+|Geordie Greep                 |38 |f  |MWO    |
+************************************************
+Genre: Jazz
+Rating: 5.35
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Geordie Greep                 |49 |m  |RYHTK  |
+|Isaac Wood                    |36 |f  |YUZUIZG|
+|Colin Greenwood               |50 |m  |IKC    |
+|Lewis Evans                   |48 |m  |XLSISLC|
+|Georgia Ellery                |54 |m  |FNFQM  |
+|Geordie Greep                 |40 |f  |OPU    |
+|Matt Kwasniewski-Kelvin       |23 |m  |EEVADWR|
+|Morgan Simpson                |51 |m  |TPSWY  |
+|Geordie Greep                 |49 |m  |XRVXLDC|
+************************************************
+Genre: Rhythm and Blues
+Rating: 4.80
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Morgan Simpson                |29 |m  |GHPEIC |
+|Georgia Ellery                |37 |m  |BNAUCU |
+|Cameron Picton                |56 |f  |JHVNGA |
+|Colin Greenwood               |41 |m  |ZDLWE  |
+************************************************
+Genre: Electronic Dance Music
+Rating: 4.00
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Jonny Greenwood               |20 |f  |MMKC   |
+|Lewis Evans                   |38 |m  |QJC    |
+************************************************
+Genre: Electronic Dance Music
+Rating: 4.66
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Cameron Picton                |47 |m  |YEQW   |
+|Morgan Simpson                |34 |m  |BIAMW  |
+|Lewis Evans                   |39 |m  |KXK    |
+|Jonny Greenwood               |24 |m  |TYEQY  |
+|Tyler Hyde                    |59 |m  |UEMOU  |
+************************************************
+Genre: Unknown
+Rating: 2.85
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Georgia Ellery                |25 |m  |YUZQKAY|
+|Geordie Greep                 |23 |m  |JKCN   |
+************************************************
+Genre: Unknown
+Rating: 4.21
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Philip Selway                 |30 |m  |POEWOUJ|
+|Georgia Ellery                |37 |m  |BSTVQH |
+************************************************
+Genre: Country
+Rating: 8.57
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Luke Mark                     |51 |f  |BSKQE  |
+|Philip Selway                 |55 |f  |PTRUJ  |
+|Jonny Greenwood               |31 |m  |CNHQHU |
+|Philip Selway                 |54 |m  |HLCDGQ |
+************************************************
+Genre: Country
+Rating: 6.29
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Geordie Greep                 |57 |f  |GXWFX  |
+|Cameron Picton                |45 |m  |XIRJBTN|
+|Jonny Greenwood               |51 |f  |ERBCPFU|
+|Lewis Evans                   |51 |f  |HPD    |
+|Georgia Ellery                |37 |f  |OYTU   |
+|Philip Selway                 |56 |f  |GPWENB |
+|Colin Greenwood               |26 |f  |QNP    |
+|Cameron Picton                |59 |m  |VDN    |
+|Luke Mark                     |25 |m  |XKO    |
+|Colin Greenwood               |59 |m  |GZZLJQV|
+************************************************
+Genre: Electronic Dance Music
+Rating: 4.79
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Jonny Greenwood               |53 |m  |GDWCF  |
+|Georgia Ellery                |21 |m  |AXSRXA |
+|Cameron Picton                |22 |f  |EWXIMOX|
+|Matt Kwasniewski-Kelvin       |58 |f  |YSIAE  |
+|Colin Greenwood               |48 |m  |GOBMDT |
+|Lewis Evans                   |26 |m  |YAEMCLD|
+************************************************
+Genre: Unknown
+Rating: 5.44
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Cameron Picton                |31 |m  |NHW    |
+|Colin Greenwood               |37 |m  |IIQJW  |
+|Ed O'Brien                    |28 |f  |MFTVAI |
+|Isaac Wood                    |51 |f  |RZWAWC |
+|Morgan Simpson                |52 |m  |QUZQCCT|
+|Luke Mark                     |35 |m  |DZRI   |
+************************************************
+GGenre: Unknown
+Rating: 5.25
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Ed O'Brien                    |37 |m  |WGZR   |
+|Luke Mark                     |49 |m  |EPFRFP |
+|Tyler Hyde                    |34 |m  |URCNMF |
+|Jonny Greenwood               |47 |f  |VDLI   |
+|Colin Greenwood               |20 |f  |TWFWIJ |
+|Ed O'Brien                    |49 |m  |LWXKD  |
+|Lewis Evans                   |26 |f  |JRTT   |
+|Cameron Picton                |29 |f  |BKE    |
+|Philip Selway                 |20 |f  |EXUDN  |
+************************************************
+Genre: Rhythm and Blues
+Rating: 5.00
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Philip Selway                 |25 |m  |JFVE   |
+|Philip Selway                 |44 |f  |JGDZGFL|
+|Cameron Picton                |48 |f  |UOAHG  |
+|Morgan Simpson                |33 |m  |TPG    |
+|Jonny Greenwood               |25 |m  |IRUHFPY|
+|Isaac Wood                    |22 |f  |KFJBSLH|
+|Isaac Wood                    |43 |f  |TZPDJAN|
+************************************************
+Genre: Unknown
+Rating: 4.62
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Ed O'Brien                    |53 |m  |QIUXFG |
+|Luke Mark                     |28 |m  |SEPXB  |
+|Lewis Evans                   |45 |m  |XHQOREU|
+|Ed O'Brien                    |32 |f  |IKHDR  |
+|Morgan Simpson                |57 |f  |SBMCL  |
+|Geordie Greep                 |24 |f  |SZA    |
+|Luke Mark                     |27 |f  |NSLUAB |
+|Luke Mark                     |38 |m  |HJKI   |
+|Tyler Hyde                    |53 |m  |VEYO   |
+************************************************
+Genre: Unknown
+Rating: 7.54
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Matt Kwasniewski-Kelvin       |49 |f  |LLDGR  |
+|Geordie Greep                 |37 |f  |DSFRU  |
+|Ed O'Brien                    |59 |f  |HBBZQN |
+|Isaac Wood                    |42 |f  |UNHZHY |
+************************************************
+Genre: Unknown
+Rating: 7.03
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Colin Greenwood               |28 |m  |LSFF   |
+|Tyler Hyde                    |23 |m  |ASPW   |
+|Jonny Greenwood               |57 |m  |CDZGH  |
+|Tyler Hyde                    |55 |m  |AAFPIH |
+|Ed O'Brien                    |59 |m  |GEHE   |
+|Philip Selway                 |33 |m  |AHRNRPH|
+************************************************
+Genre: Dubstep
+Rating: 3.90
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Tyler Hyde                    |26 |f  |PPQFFSS|
+|Luke Mark                     |32 |m  |MKWO   |
+|Isaac Wood                    |41 |f  |IEDKH  |
+|Geordie Greep                 |47 |f  |XIH    |
+|Tyler Hyde                    |50 |m  |FNFROY |
+************************************************
+GGenre: Country
+Rating: 4.60
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Isaac Wood                    |37 |m  |BHF    |
+|Lewis Evans                   |41 |m  |FZZLCT |
+|Geordie Greep                 |52 |f  |AGXUPNT|
+|Jonny Greenwood               |35 |f  |ZLJPZ  |
+|Colin Greenwood               |42 |f  |YMQGC  |
+|Philip Selway                 |39 |m  |AVGQR  |
+|Georgia Ellery                |30 |m  |QPII   |
+|Cameron Picton                |56 |m  |NIILUHU|
+|Georgia Ellery                |23 |m  |RSNPYAZ|
+|Lewis Evans                   |48 |m  |SDJM   |
+************************************************
+GGenre: Dubstep
+Rating: 4.64
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Matt Kwasniewski-Kelvin       |20 |f  |JPB    |
+|Ed O'Brien                    |32 |f  |STVRB  |
+|Georgia Ellery                |56 |m  |WYNH   |
+|Ed O'Brien                    |39 |f  |OFDSKWW|
+|Cameron Picton                |38 |f  |QVMC   |
+|Geordie Greep                 |21 |f  |ZLWP   |
+|Luke Mark                     |48 |m  |BGV    |
+|Philip Selway                 |29 |m  |MHGV   |
+|Lewis Evans                   |31 |m  |LTY    |
+|Geordie Greep                 |36 |f  |GUZRIX |
+************************************************
