@@ -172,6 +172,19 @@ void BandSoundShow(Band b)
         Beep(b.members[i].pitch,time);
     }
 }
+void PlaySong(Band b)
+{
+  PrintInfoAboutBand(b);
+  printf("PRESS ANY KEY TO END THE SONG\n");
+    int i;
+    do
+    {
+      int memberToPlay=GetRandomNumInrange(0,b.membersnum-1);
+      int time=GetRandomNumInrange(20,300);
+       printf("|%-30s|%-3d|%-3c|%-7s|%-5d|\n", getMusicianName(b.members[memberToPlay].name), b.members[memberToPlay].age, getSex(b.members[memberToPlay].sex),b.members[memberToPlay].role,b.members[memberToPlay].pitch );
+      Beep(b.members[memberToPlay].pitch,time);
+    }while(!kbhit());
+}
 int GetRandomNumInrange(int lowerBorder, int upperBorder)
 {
     return (rand() % (upperBorder - lowerBorder + 1) + lowerBorder);

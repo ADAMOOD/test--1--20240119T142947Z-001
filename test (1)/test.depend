@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1710599033 source:c:\users\kijonka\downloads\test (1)-20240119t142947z-001\test (1)\main.c
+1710600559 source:c:\users\kijonka\downloads\test (1)-20240119t142947z-001\test (1)\main.c
 	"band.h"
 	<windows.h>
 
-1710599709 c:\users\kijonka\downloads\test (1)-20240119t142947z-001\test (1)\band.h
+1710600528 c:\users\kijonka\downloads\test (1)-20240119t142947z-001\test (1)\band.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -13,7 +13,7 @@
 1706290797 c:\users\kijonka\downloads\test (1)-20240119t142947z-001\test (1)\band.c
 	"band.h"
 
-1710599258 source:c:\users\kijonka\downloads\test (1)-20240119t142947z-001\test (1)\band.c
+1710600565 source:c:\users\kijonka\downloads\test (1)-20240119t142947z-001\test (1)\band.c
 	"band.h"
 	<windows.h>
 

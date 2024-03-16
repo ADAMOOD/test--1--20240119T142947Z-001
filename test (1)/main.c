@@ -26,14 +26,13 @@ int main()
     int choice;
     do
     {
-        printf("\n--- Menu ---\n");
         printf("1. Generate new bands\n");
         printf("2. Play a band\n");
         printf("3. Play a song\n");
         printf("4. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
-
+        int bandNum;
         switch(choice)
         {
         case 1:
@@ -57,16 +56,18 @@ int main()
             break;
         case 2:
             printf("Give me a number of Band\n");
-            int bandNum;
             scanf("%d",&bandNum);
             BandSoundShow(bands[bandNum-1]);
             break;
         case 3:
             printf("Playing a song...\n");
-            // Add your code for playing a song here
+            printf("Give me a number of Band\n");
+            scanf("%d",&bandNum);
+            PlaySong(bands[bandNum-1]);
             break;
         case 4:
             printf("Exiting...\n");
+            Beep(150,1000);
             break;
         default:
             printf("Invalid choice! Please enter a number between 1 and 4.\n");
