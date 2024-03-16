@@ -66,6 +66,6 @@ void fillBands(Band *b, int num);
 int GetRandomNumInrange(int lowerBorder, int upperBorder);
 char getSex(Gender g);
 float GetBandRating(Band b);
-void PlaySong(Band b);
+void BandSoundShow(Band b);
 
 #endif // BAND_H

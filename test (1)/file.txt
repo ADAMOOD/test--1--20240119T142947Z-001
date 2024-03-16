@@ -1,18 +1,13 @@
-P¶Genre: Unknown
-Rating: 6.14
+`¾Genre: Unknown
+Rating: 4.76
 
 Members:
 ________________________________________________
 |%-30s|%-3s|%-3s|%-7s|
 |------------------------------|---|---|-------|
-|Jonny Greenwood               |24 |m  |AAB    |
-|Cameron Picton                |31 |m  |AABA   |
-|Isaac Wood                    |38 |m  |ABBBAA |
-|Luke Mark                     |55 |m  |BBBBB  |
-|Colin Greenwood               |36 |m  |BAB    |
-|Cameron Picton                |59 |m  |ABABA  |
-|Morgan Simpson                |58 |f  |AAABB  |
-|Georgia Ellery                |22 |f  |ABAAB  |
-|Ed O'Brien                    |48 |f  |AAAAABA|
-|Jonny Greenwood               |57 |m  |BBAB   |
+|Lewis Evans                   |25 |m  |ABB    |
+|Matt Kwasniewski-Kelvin       |30 |f  |BAA    |
+|Lewis Evans                   |44 |f  |BAB    |
+|Morgan Simpson                |51 |m  |BBABA  |
+|Colin Greenwood               |59 |f  |BBA    |
 ************************************************

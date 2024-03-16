@@ -139,12 +139,12 @@ void fillMembers(member *m, int num)
         if (GetRandomNumInrange(0, 100)%2==0)
         {
             m[n].sex=male;
-            m[n].pitch=GetRandomNumInrange(150,600);
+            m[n].pitch=GetRandomNumInrange(100,1000);
         }
         else
         {
             m[n].sex=female;
-            m[n].pitch=GetRandomNumInrange(600,1000);
+            m[n].pitch=GetRandomNumInrange(600,3000);
         }
     }
 }
@@ -162,15 +162,14 @@ char *GetRandomstring()
     }
     return role;
 }
-void PlaySong(Band b)
+void BandSoundShow(Band b)
 {
   PrintInfoAboutBand(b);
     int i;
     for(i=0;i<b.membersnum; i++)
     {
-        Beep(b.members[1].pitch,GetRandomNumInrange(200,1500));
-        printf("%d\n",b.members[i].pitch);
-        Sleep(200);1
+      int time=GetRandomNumInrange(50,300);
+        Beep(b.members[i].pitch,time);
     }
 }
 int GetRandomNumInrange(int lowerBorder, int upperBorder)

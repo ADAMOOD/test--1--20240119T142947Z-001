@@ -14,8 +14,8 @@ int main()
         return -1;
     }
     fillBands(bands, bNumber);
-        FILE *file;
-   file= fopen("file.txt","w");
+    FILE *file;
+    file= fopen("file.txt","w");
     for (int i = 0; i < bNumber; i++)
     {
         printf("Band number %d:\n", i + 1);
@@ -23,18 +23,56 @@ int main()
         fprintf(file,"%s",GetInfoAboutBand(bands[i]));
     }
     fclose(file);
-    int bandNum;
-    printf("Do you wanna hear any of the bands?");
-    scanf("%d",&bandNum);
-   /* PrintInfoAboutBand(bands[bandNum-1]);
-    int i;
-    for(i=0;i>bands[bandNum-1].membersnum; i++)
+    int choice;
+    do
     {
-        Beep(bands[bandNum-1].members[1].pitch,1000);
-        printf("%d\n",bands[bandNum-1].members[i].pitch);
-    }*/
-    //Beep(bands[bandNum-1].members[1].pitch,1000);
-    PlaySong(bands[bandNum-1]);
+        printf("\n--- Menu ---\n");
+        printf("1. Generate new bands\n");
+        printf("2. Play a band\n");
+        printf("3. Play a song\n");
+        printf("4. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
+
+        switch(choice)
+        {
+        case 1:
+            printf("Generating new bands...\n");
+            printf("Give me a number of bands\n");
+            scanf("%d", &bNumber);
+            if ((bands = (Band *)malloc(sizeof(Band) * bNumber)) == NULL)
+            {
+                return -1;
+            }
+            fillBands(bands, bNumber);
+            FILE *file;
+            file= fopen("file.txt","w");
+            for (int i = 0; i < bNumber; i++)
+            {
+                printf("Band number %d:\n", i + 1);
+                PrintInfoAboutBand(bands[i]);
+                fprintf(file,"%s",GetInfoAboutBand(bands[i]));
+            }
+            fclose(file);
+            break;
+        case 2:
+            printf("Give me a number of Band\n");
+            int bandNum;
+            scanf("%d",&bandNum);
+            BandSoundShow(bands[bandNum-1]);
+            break;
+        case 3:
+            printf("Playing a song...\n");
+            // Add your code for playing a song here
+            break;
+        case 4:
+            printf("Exiting...\n");
+            break;
+        default:
+            printf("Invalid choice! Please enter a number between 1 and 4.\n");
+        }
+    }
+    while(choice != 4);
     for (int i = 0; i < bNumber; i++)
     {
         free(bands[i].members);
@@ -42,3 +80,5 @@ int main()
     free(bands);
     return 0;
 }
+
+
