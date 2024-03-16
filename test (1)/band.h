@@ -6,6 +6,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <windows.h>
+#include <dos.h>
 
 typedef enum {
     Rock,
@@ -45,6 +46,7 @@ typedef struct {
     int age;
     Names name;
     char *role;
+    int pitch;
 } member;
 
 typedef struct {
@@ -64,5 +66,6 @@ void fillBands(Band *b, int num);
 int GetRandomNumInrange(int lowerBorder, int upperBorder);
 char getSex(Gender g);
 float GetBandRating(Band b);
+void PlaySong(Band b);
 
 #endif // BAND_H

@@ -1,14 +1,15 @@
 #include "band.h"
+#include <windows.h>
 char *GetInfoAboutBand(Band b)
 {
     int tableWidth = 46;
-    char *result = (char *)malloc(1); 
+    char *result = (char *)malloc(1);
 
-    
+
     void appendString(const char *str)
     {
         result = (char *)realloc(result, strlen(result) + strlen(str) + 1);
-        strcat(result, str); 
+        strcat(result, str);
     }
 
     appendString("Genre: ");
@@ -40,7 +41,7 @@ char *GetInfoAboutBand(Band b)
 
     for (int i = 0; i < b.membersnum; i++)
     {
-        char memberInfo[100]; 
+        char memberInfo[100];
         sprintf(memberInfo,"|%-30s|%-3d|%-3c|%-7s|\n", getMusicianName(b.members[i].name), b.members[i].age, getSex(b.members[i].sex), b.members[i].role);
         appendString(memberInfo);
     }
@@ -55,7 +56,7 @@ char *GetInfoAboutBand(Band b)
 }
 void PrintInfoAboutBand(Band b)
 {
-    int tableWidth=46;
+    int tableWidth=52;
     printf("Genre: %s\n", getGenreName(b.genre));
     printf("Rating: %.2f\n", b.rating);
 
@@ -63,13 +64,13 @@ void PrintInfoAboutBand(Band b)
     for (int i = 0; i < tableWidth+2; i++)
     {
 
-            printf("_");
+        printf("_");
     }
-    printf("\n|%-30s|%-3s|%-3s|%-7s|\n", "Name", "Age", "Sex","Role");
+    printf("\n|%-30s|%-3s|%-3s|%-7s|%-5s|\n", "Name", "Age", "Sex","Role","Pitch");
     printf("|");
     for (int i = 0; i < tableWidth; i++)
     {
-        if(i==30||i==34||i==38)
+        if(i==30||i==34||i==38||i==46)
         {
             printf("|");
         }
@@ -82,7 +83,7 @@ void PrintInfoAboutBand(Band b)
 
     for (int i = 0; i < b.membersnum; i++)
     {
-        printf("|%-30s|%-3d|%-3c|%-7s|\n", getMusicianName(b.members[i].name), b.members[i].age, getSex(b.members[i].sex),b.members[i].role );
+        printf("|%-30s|%-3d|%-3c|%-7s|%-5d|\n", getMusicianName(b.members[i].name), b.members[i].age, getSex(b.members[i].sex),b.members[i].role,b.members[i].pitch );
     }
 
     for (int i = 0; i < tableWidth+2; i++)
@@ -90,7 +91,6 @@ void PrintInfoAboutBand(Band b)
         printf("*");
     }
     printf("\n");
-    printf("\a");
 
 }
 char getSex(Gender g)
@@ -139,10 +139,12 @@ void fillMembers(member *m, int num)
         if (GetRandomNumInrange(0, 100)%2==0)
         {
             m[n].sex=male;
+            m[n].pitch=GetRandomNumInrange(150,600);
         }
         else
         {
             m[n].sex=female;
+            m[n].pitch=GetRandomNumInrange(600,1000);
         }
     }
 }
@@ -154,10 +156,22 @@ char *GetRandomstring()
     {
         return NULL;
     }
-    for(int i=0;i<length;i++){
-        role[i]=(char)GetRandomNumInrange(65,90);
+    for(int i=0; i<length; i++)
+    {
+        role[i]=(char)GetRandomNumInrange('A','B');
     }
     return role;
+}
+void PlaySong(Band b)
+{
+  PrintInfoAboutBand(b);
+    int i;
+    for(i=0;i<b.membersnum; i++)
+    {
+        Beep(b.members[1].pitch,GetRandomNumInrange(200,1500));
+        printf("%d\n",b.members[i].pitch);
+        Sleep(200);1
+    }
 }
 int GetRandomNumInrange(int lowerBorder, int upperBorder)
 {
