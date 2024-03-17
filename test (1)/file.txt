@@ -1,17 +1,204 @@
-PGenre: Unknown
-Rating: 5.90
+Genre: Unknown
+Rating: 4.74
 
 Members:
 ________________________________________________
 |%-30s|%-3s|%-3s|%-7s|
 |------------------------------|---|---|-------|
-|Isaac Wood                    |25 |f  |BAA    |
-|Isaac Wood                    |34 |m  |BABBAAB|
-|Colin Greenwood               |26 |f  |BBA    |
-|Ed O'Brien                    |44 |f  |AAAA   |
-|Geordie Greep                 |31 |m  |BBBA   |
-|Jonny Greenwood               |59 |f  |BBAA   |
-|Cameron Picton                |58 |f  |BABBAB |
-|Georgia Ellery                |43 |m  |ABB    |
-|Colin Greenwood               |32 |f  |ABAAA  |
+|Lewis Evans                   |49 |m  |BBABA  |
+|Luke Mark                     |54 |f  |BBABA  |
+|Georgia Ellery                |44 |f  |ABABABA|
+|Colin Greenwood               |40 |m  |BABA   |
+|Tyler Hyde                    |59 |m  |BBBBAA |
+************************************************
+Genre: Unknown
+Rating: 6.33
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Matt Kwasniewski-Kelvin       |27 |m  |BBABA  |
+|Geordie Greep                 |36 |m  |AABBBAB|
+|Matt Kwasniewski-Kelvin       |22 |m  |BAAAA  |
+|Colin Greenwood               |21 |f  |AABBBA |
+|Matt Kwasniewski-Kelvin       |53 |f  |BABBABB|
+|Jonny Greenwood               |39 |f  |ABBAAAA |
+************************************************
+Genre: Techno
+Rating: 7.06
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Ed O'Brien                    |43 |f  |BBBABy  ﬁÉñ |
+|Ed O'Brien                    |41 |f  |BABBABB
+ﬁÖñ*|
+|Ed O'Brien                    |50 |f  |AABBBABrﬁìñe|
+|Geordie Greep                 |59 |f  |AABBABBfﬁññA|
+|Geordie Greep                 |46 |f  |AAAAB   ﬁíñ |
+|Tyler Hyde                    |51 |f  |AABBBAB ﬁïñA|
+|Luke Mark                     |55 |m  |AAAABonnﬁîñe	|
+|Isaac Wood                    |22 |m  |AAABABAlﬁâñy|
+|Cameron Picton                |37 |f  |AAAABB--ﬁêñ-|
+|Ed O'Brien                    |37 |f  |AAAAA   ﬁàñ |
+|Cameron Picton                |56 |f  |BAABAd  ﬁéñ |
+|Colin Greenwood               |43 |m  |ABA|
+|JoﬁäñG|
+************************************************
+G£ÀGenre: Techno
+Rating: 3.55
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Lewis Evans                   |22 |m  |ABBBAAB|ﬁãñA|
+|Philip Selway                 |21 |m  |ABAAABB ﬁçñ |
+|Luke Mark                     |25 |f  |BBAAB***ﬁÑñ*|
+|Lewis Evans                   |31 |f  |AAAAAA**ﬁáñ*|
+|Matt Kwasniewski-Kelvin       |47 |f  |ABBABBA ﬁåñ||
+|Matt Kwasniewski-Kelvin       |49 |f  |ABA*****
+|
+************************************************
+Genre: Country
+Rating: 6.14
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Colin Greenwood               |26 |f  |BBB   |5ﬁÇñ |
+|Matt Kwasniewski-Kelvin       |43 |m  |BBBAAB|Cﬁèñ |
+|Ed O'Brien                    |31 |f  |AAA-----ﬁëñ-|
+|Isaac Wood                    |21 |m  |BAB  |24ﬁÅñ |
+|Geordie Greep                 |54 |f  |ABBABBB|ﬁÄñg|
+|Tyler Hyde                    |56 |m  |ABABA___	ﬁúñ-|
+|Cameron Picton                |36 |m  |BAAABA%-ﬁüñ-|
+|Ed O'Brien                    |23 |m  |AAA-----ﬁûñ-|
+|Jonny Greenwood               |55 |f  |AABABB |
+|Ed O'Brien                    |37 |m  |ABBB   |
+|Ed O'Brien                    |21 |f  |BBBBBA |
+|Luke Mark                     |33 |f  |AAA    |
+************************************************
+Genre: Jazz
+Rating: 4.67
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Cameron Picton                |60 |m  |AABAB  |
+|Georgia Ellery                |26 |m  |BBB    |
+|Philip Selway                 |46 |m  |BAABAA |
+|Georgia Ellery                |24 |m  |BBBA   |
+|Tyler Hyde                    |46 |f  |BABBAB |
+|Geordie Greep                 |35 |m  |ABAAA  |
+|Morgan Simpson                |36 |m  |BBAABAA|
+|Tyler Hyde                    |24 |m  |ABAB   |
+|Tyler Hyde                    |59 |m  |ABAAABB|
+|Jonny Greenwood               |23 |f  |ABAAB  |
+|Jonny Greenwood               |24 |m  |ABAB   |
+|Colin Greenwood               |45 |m  |AABB   |
+|Cameron Picton                |39 |m  |AAAA   |
+|Tyler Hyde                    |37 |m  |BAAAAAA|
+|Morgan Simpson                |27 |f  |AAABB  |
+|Isaac Wood                    |47 |m  |BBABB  |
+|Jonny Greenwood               |59 |f  |BAB    |
+************************************************
+Genre: Jazz
+Rating: 6.29
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Geordie Greep                 |45 |f  |BBB    |
+|Jonny Greenwood               |20 |m  |AAA    |
+|Matt Kwasniewski-Kelvin       |32 |f  |BBBA   |
+|Jonny Greenwood               |47 |f  |BBAAAAB|
+|Luke Mark                     |31 |f  |ABBB   |
+|Geordie Greep                 |38 |m  |BAAB   |
+|Colin Greenwood               |52 |m  |AAABA  |
+|Jonny Greenwood               |46 |f  |ABBBBAB|
+|Philip Selway                 |43 |m  |AAAAAAB|
+|Cameron Picton                |50 |f  |BBABA  |
+|Geordie Greep                 |41 |m  |BAABABA|
+|Matt Kwasniewski-Kelvin       |30 |f  |BBBBA  |
+|Morgan Simpson                |55 |f  |AAABABB|
+|Colin Greenwood               |54 |f  |ABBB   |
+|Lewis Evans                   |23 |f  |BAA    |
+|Isaac Wood                    |34 |f  |AAABBAB|
+************************************************
+Genre: Country
+Rating: 4.29
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Lewis Evans                   |27 |m  |BABAA  |
+|Jonny Greenwood               |38 |m  |BBA    |
+|Colin Greenwood               |29 |f  |ABAAAA |
+|Tyler Hyde                    |56 |m  |BAAAB  |
+|Jonny Greenwood               |22 |f  |BAAAB  |
+|Lewis Evans                   |45 |m  |AABBA  |
+|Luke Mark                     |45 |f  |BBBAAAA|
+|Morgan Simpson                |28 |m  |ABBBABB|
+|Geordie Greep                 |53 |f  |ABB    |
+|Ed O'Brien                    |30 |f  |ABBAABA|
+|Georgia Ellery                |32 |f  |ABABA  |
+|Matt Kwasniewski-Kelvin       |58 |m  |AAABAA |
+|Jonny Greenwood               |33 |m  |AABBBB |
+|Georgia Ellery                |25 |f  |AABBBA |
+|Isaac Wood                    |22 |m  |BBB    |
+|Lewis Evans                   |30 |m  |AAAB   |
+************************************************
+Genre: Country
+Rating: 5.59
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Philip Selway                 |50 |f  |BAB    |
+|Colin Greenwood               |26 |f  |BBBA   |
+|Georgia Ellery                |44 |m  |BAAA   |
+|Geordie Greep                 |22 |f  |BABA   |
+|Jonny Greenwood               |46 |f  |AABA   |
+|Colin Greenwood               |21 |f  |BAAA   |
+|Colin Greenwood               |60 |m  |BBABBBB|
+|Tyler Hyde                    |21 |m  |BAABA  |
+|Ed O'Brien                    |43 |m  |BAAAAA |
+|Luke Mark                     |42 |m  |BABBA  |
+|Isaac Wood                    |34 |f  |AABB   |
+|Cameron Picton                |41 |f  |AABABBB|
+|Luke Mark                     |37 |f  |BBAAAAA|
+|Geordie Greep                 |58 |m  |BBB    |
+|Jonny Greenwood               |55 |f  |BBBB   |
+|Cameron Picton                |59 |f  |BBBAABA|
+|Luke Mark                     |20 |f  |BAA    |
+|Luke Mark                     |41 |f  |BAAABA |
+|Geordie Greep                 |46 |m  |AAB    |
+************************************************
+Genre: Unknown
+Rating: 4.55
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Luke Mark                     |21 |m  |BAAAA  |
+|Lewis Evans                   |43 |m  |AABBBA |
+|Philip Selway                 |54 |m  |BBB    |
+|Cameron Picton                |29 |f  |AAAABAA|
+|Isaac Wood                    |53 |m  |AABBAAA|
+|Luke Mark                     |25 |m  |BBABA  |
+|Cameron Picton                |40 |m  |BAAABA |
+|Isaac Wood                    |46 |m  |BAAA   |
+|Jonny Greenwood               |37 |f  |AAAB   |
+|Geordie Greep                 |30 |f  |BAB    |
+|Cameron Picton                |28 |m  |ABBAA  |
+|Cameron Picton                |39 |m  |AAAAABA|
 ************************************************

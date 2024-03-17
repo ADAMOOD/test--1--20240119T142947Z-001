@@ -69,7 +69,7 @@ int main()
             break;
         case 4:
 
-          /*  if (pthread_create(&cleenG, NULL, tomas(), NULL) != 0)
+            if (pthread_create(&cleenG, NULL, tomas, NULL) != 0)
             {
                 fprintf(stderr, "Chyba pøi vytváøení vlákna cleenG.\n");
                 return 1;
@@ -84,14 +84,13 @@ int main()
                 fprintf(stderr, "Chyba pøi èekání na ukonèení vlákna cleenG.\n");
                 return 1;
             }
-
             if (pthread_join(vocals, NULL) != 0)
             {
                 fprintf(stderr, "Chyba pøi èekání na ukonèení vlákna vocals.\n");
                 return 1;
-            }*/
-           // tomas();
-             noSurprises();
+            }
+            // tomas();
+            //noSurprises();
             break;
         case 5:
             printf("Exiting...\n");
