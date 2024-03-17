@@ -3,7 +3,8 @@
 
 int main()
 {
-
+    pthread_t cleenG;
+    pthread_t vocals;
     srand(time(NULL));
     Band *bands;
     int bNumber;
@@ -67,7 +68,30 @@ int main()
             PlaySong(bands[bandNum-1]);
             break;
         case 4:
-            noSurprises();
+
+          /*  if (pthread_create(&cleenG, NULL, tomas(), NULL) != 0)
+            {
+                fprintf(stderr, "Chyba pøi vytváøení vlákna cleenG.\n");
+                return 1;
+            }
+            if (pthread_create(&vocals, NULL, noSurprises, NULL) != 0)
+            {
+                fprintf(stderr, "Chyba pøi vytváøení vlákna vocals.\n");
+                return 1;
+            }
+            if (pthread_join(cleenG, NULL) != 0)
+            {
+                fprintf(stderr, "Chyba pøi èekání na ukonèení vlákna cleenG.\n");
+                return 1;
+            }
+
+            if (pthread_join(vocals, NULL) != 0)
+            {
+                fprintf(stderr, "Chyba pøi èekání na ukonèení vlákna vocals.\n");
+                return 1;
+            }*/
+           // tomas();
+             noSurprises();
             break;
         case 5:
             printf("Exiting...\n");
@@ -77,7 +101,7 @@ int main()
             printf("Invalid choice! Please enter a number between 1 and 4.\n");
         }
     }
-    while(choice != 4);
+    while(choice != 5);
     for (int i = 0; i < bNumber; i++)
     {
         free(bands[i].members);

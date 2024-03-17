@@ -1,12 +1,17 @@
-P¦Genre: Unknown
-Rating: 6.00
+PGenre: Unknown
+Rating: 5.90
 
 Members:
 ________________________________________________
 |%-30s|%-3s|%-3s|%-7s|
 |------------------------------|---|---|-------|
-|Cameron Picton                |54 |f  |ABB    |
-|Cameron Picton                |34 |f  |AABBBA |
-|Ed O'Brien                    |31 |f  |BBBBB  |
-|Tyler Hyde                    |55 |m  |BABB   |
+|Isaac Wood                    |25 |f  |BAA    |
+|Isaac Wood                    |34 |m  |BABBAAB|
+|Colin Greenwood               |26 |f  |BBA    |
+|Ed O'Brien                    |44 |f  |AAAA   |
+|Geordie Greep                 |31 |m  |BBBA   |
+|Jonny Greenwood               |59 |f  |BBAA   |
+|Cameron Picton                |58 |f  |BABBAB |
+|Georgia Ellery                |43 |m  |ABB    |
+|Colin Greenwood               |32 |f  |ABAAA  |
 ************************************************

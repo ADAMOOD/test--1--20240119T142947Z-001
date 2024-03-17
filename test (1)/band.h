@@ -6,6 +6,7 @@
 #include <string.h>
 #include <windows.h>
 #include <dos.h>
+#include <pthread.h>
 
 typedef enum {
     Rock,
@@ -67,6 +68,8 @@ char getSex(Gender g);
 float GetBandRating(Band b);
 void BandSoundShow(Band b);
 void PlaySong(Band b);
-void noSurprises();
+void* noSurprises();
+void* cleenGuitar();
+void* tomas();
 
 #endif // BAND_H

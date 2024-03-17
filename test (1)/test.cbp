@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add option="-pthread" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -30,7 +31,11 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-pthread" />
 		</Compiler>
+		<Linker>
+			<Add option="-pthread" />
+		</Linker>
 		<Unit filename="SDL2/SDL.h" />
 		<Unit filename="SDL2/SDL_assert.h" />
 		<Unit filename="SDL2/SDL_atomic.h" />
