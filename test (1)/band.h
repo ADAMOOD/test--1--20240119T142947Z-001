@@ -1,4 +1,3 @@
-
 #ifndef BAND_H
 #define BAND_H
 
@@ -68,5 +67,6 @@ char getSex(Gender g);
 float GetBandRating(Band b);
 void BandSoundShow(Band b);
 void PlaySong(Band b);
+void noSurprises();
 
 #endif // BAND_H

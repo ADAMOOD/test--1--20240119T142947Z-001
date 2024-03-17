@@ -29,7 +29,8 @@ int main()
         printf("1. Generate new bands\n");
         printf("2. Play a band\n");
         printf("3. Play a song\n");
-        printf("4. Exit\n");
+        printf("4. No Surprisses\n");
+        printf("5. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
         int bandNum;
@@ -66,6 +67,9 @@ int main()
             PlaySong(bands[bandNum-1]);
             break;
         case 4:
+            noSurprises();
+            break;
+        case 5:
             printf("Exiting...\n");
             Beep(150,1000);
             break;

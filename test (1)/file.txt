@@ -1,138 +1,12 @@
-Genre: Unknown
-Rating: 4.54
+P¶Genre: Unknown
+Rating: 6.00
 
 Members:
 ________________________________________________
 |%-30s|%-3s|%-3s|%-7s|
 |------------------------------|---|---|-------|
-|Lewis Evans                   |58 |m  |BABAAAA|
-|Georgia Ellery                |49 |f  |AAAA   |
-|Georgia Ellery                |41 |f  |ABAAABA|
-|Jonny Greenwood               |26 |f  |AAAAAAB|
-|Geordie Greep                 |38 |m  |AAB    |
-|Isaac Wood                    |48 |m  |BBABA  |
-************************************************
-Genre: Country
-Rating: 6.41
-
-Members:
-________________________________________________
-|%-30s|%-3s|%-3s|%-7s|
-|------------------------------|---|---|-------|
-|Colin Greenwood               |58 |m  |BAAB   |
-|Ed O'Brien                    |32 |m  |BABBA  |
-|Tyler Hyde                    |58 |m  |BABBB  |
-|Luke Mark                     |30 |m  |ABBABBA|
-|Matt Kwasniewski-Kelvin       |53 |f  |AABBABB|
-************************************************
-Genre: Unknown
-Rating: 4.06
-
-Members:
-________________________________________________
-|%-30s|%-3s|%-3s|%-7s|
-|------------------------------|---|---|-------|
-|Luke Mark                     |53 |m  |BAB    |
-|Matt Kwasniewski-Kelvin       |39 |f  |ABBAB  |
-|Lewis Evans                   |22 |m  |ABA    |
-************************************************
-Genre: Rhythm and Blues
-Rating: 5.33
-
-Members:
-________________________________________________
-|%-30s|%-3s|%-3s|%-7s|
-|------------------------------|---|---|-------|
-|Georgia Ellery                |44 |f  |BBABBBB|
-|Matt Kwasniewski-Kelvin       |54 |m  |BAAB   |
-|Isaac Wood                    |53 |m  |AAAAB  |
-|Matt Kwasniewski-Kelvin       |25 |f  |BBABBA--HévL-|
-|Isaac Wood                    |47 |f  |BABBAAB|
-|Colin Greenwood               |49 |m  |ABA     BépL 
-|
-|Cameron Picton                |43 |f  |ABB3s|%-JéxL-|
-************************************************
-Genre: Jazz
-Rating: 4.69
-
-Members:
-________________________________________________
-|%-30s|%-3s|%-3s|%-7s|
-|------------------------------|---|---|-------|
-|Colin Greenwood               |45 |m  |AAABBAlvEéuL |
-|Luke Mark                     |34 |f  |AAAA   |
-|Isaac Wood                    |51 |m  |BBABAA--IéyL-|
-|Matt Kwasniewski-Kelvin       |24 |f  |BBBAAB--GéwL-|
-|Lewis Evans                   |46 |f  |ABBBBAAlCésLe	|
-|Tyler Hyde                    |49 |f  |ABAAABA|
-|Luke Mark                     |60 |f  |AAAAA  |
-|Matt Kwasniewski-Kelvin       |42 |f  |ABABBA|mAéqLB|
-************************************************
-Genre: Jazz
-Rating: 5.89
-
-Members:
-________________________________________________
-|%-30s|%-3s|%-3s|%-7s|
-|------------------------------|---|---|-------|
-|Philip Selway                 |56 |m  |AABBABt FétLn|
-|Jonny Greenwood               |47 |f  |BBBAABA DérLA|
-|Tyler Hyde                    |20 |f  |AAAA
-  |
-|Ed O'Brien                    |39 |m  |ABBABA |
-|Ed O'Brien                    |23 |f  |AAA
-****@énL*|
-|Isaac Wood                    |20 |m  |BAAA   |
-************************************************
-Genre: Unknown
-Rating: 5.04
-
-Members:
-________________________________________________
-|%-30s|%-3s|%-3s|%-7s|
-|------------------------------|---|---|-------|
-|Tyler Hyde                    |47 |f  |AAABAA |
-|Luke Mark                     |56 |f  |BBBAAB**øèoL*|
-|Philip Selway                 |26 |f  |BBABAAA|
-************************************************
-Genre: Unknown
-Rating: 4.77
-
-Members:
-________________________________________________
-|%-30s|%-3s|%-3s|%-7s|
-|------------------------------|---|---|-------|
-|Philip Selway                 |40 |f  |BBA*****æèlL*|
-|Cameron Picton                |20 |m  |AAB    |
-|Morgan Simpson                |37 |f  |AABABB__Ké{L-|
-************************************************
-Genre: Techno
-Rating: 4.86
-
-Members:
-________________________________________________
-|%-30s|%-3s|%-3s|%-7s|
-|------------------------------|---|---|-------|
-|Tyler Hyde                    |34 |m  |AABA   |
-|Morgan Simpson                |51 |f  |BAABA  |
-|Jonny Greenwood               |52 |m  |ABAA   |
-|Morgan Simpson                |40 |f  |BBAA   |
-|Tyler Hyde                    |22 |m  |BABABA |
-|Matt Kwasniewski-Kelvin       |27 |f  |AAAAAB |
-|Jonny Greenwood               |25 |f  |BAAA   |
-|Philip Selway                 |27 |m  |BAABAA |
-************************************************
-Genre: Rhythm and Blues
-Rating: 6.02
-
-Members:
-________________________________________________
-|%-30s|%-3s|%-3s|%-7s|
-|------------------------------|---|---|-------|
-|Morgan Simpson                |33 |f  |BAAAAA |
-|Ed O'Brien                    |40 |m  |AAB    |
-|Georgia Ellery                |22 |m  |BBAAAB |
-|Ed O'Brien                    |55 |f  |AAABBB |
-|Morgan Simpson                |51 |m  |ABBBAB |
-|Ed O'Brien                    |41 |m  |AABAAB |
+|Cameron Picton                |54 |f  |ABB    |
+|Cameron Picton                |34 |f  |AABBBA |
+|Ed O'Brien                    |31 |f  |BBBBB  |
+|Tyler Hyde                    |55 |m  |BABB   |
 ************************************************

@@ -101,13 +101,48 @@ char getSex(Gender g)
     }
     return 'm';
 }
+#define RIFF   Beep(3520.00,500);Beep(2093.00,500);Beep(2793.83,500);Beep(2093.00,500);
+#define DOWNWARDRIFF   Beep(932.33,500);Beep(2217.46,500);Beep(2793.83,500);Beep(3135.96,500);
+#define D7(x) Beep(	440.00,x);
+#define E8(x) Beep(	261.63,x);
+#define D5(x) Beep(	392.00 ,x);
+#define A8(x) Beep(	349.23 ,x);
+#define E6(x) Beep(	233.08 ,x);
+#define D8(x) Beep(	466.16 ,x);
+
+void noSurprises()
+{
+  RIFF;
+  RIFF;
+  RIFF;
+  DOWNWARDRIFF;
+  RIFF;
+  RIFF;
+  RIFF;
+  DOWNWARDRIFF;
+  D7(2000);
+  E8(2000);
+  D7(500);
+  D7(1000);
+  D5(1400);
+  A8(500);
+  D5(500);
+  D7(2000);
+  E6(2000);
+  D7(500);
+  D7(1000);
+  D5(1400);
+  A8(500);
+  D5(500);
+  D8(1500);
+}
 void fillBands(Band *b, int num)
 {
     int i = 0;
     int mem;
     for (; i < num; i++)
     {
-        mem = GetRandomNumInrange(2, 10);
+        mem = GetRandomNumInrange(2, 20);
         b[i].membersnum = mem;
         b[i].genre = GetRandomNumInrange(0, 13);
         if (((b[i].members) = (member *)malloc(sizeof(member) * mem)) == NULL)
