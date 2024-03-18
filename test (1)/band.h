@@ -71,5 +71,5 @@ void PlaySong(Band b);
 void* noSurprises();
 void* cleenGuitar();
 void* tomas();
-
+void printWithDelay(const char* message, useconds_t delay);
 #endif // BAND_H
