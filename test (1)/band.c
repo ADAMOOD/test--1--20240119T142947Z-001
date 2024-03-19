@@ -191,10 +191,14 @@ void* tomas()
         animation[i][j] = '\0'; // Přidání ukončovacího nulového znaku
     }
     fclose(animationFile); // Uzavřeme soubor po jeho čtení
-    for(int f=0;f<framesNUM;f++)
+    while(!kbhit())
+    {
+      for(int f=0;f<framesNUM;f++)
     {
       printWithDelay(animation[f],80000);
     }
+    }
+
     /* int count = 0;
      while (tomas2[count] != '\0')
      {
