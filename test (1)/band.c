@@ -1,5 +1,4 @@
 #include "band.h"
-#include "noSurprisses.h"
 #include <windows.h>
 char *GetInfoAboutBand(Band b)
 {
@@ -193,136 +192,16 @@ void* tomas()
     fclose(animationFile); // Uzavřeme soubor po jeho čtení
     while(!kbhit())
     {
-      for(int f=0;f<framesNUM;f++)
+          int f=0;
+      for(f;f<framesNUM;f++)
+    {
+      printWithDelay(animation[f],80000);
+    }
+        for(f--;f>=0;f--)
     {
       printWithDelay(animation[f],80000);
     }
     }
-
-    /* int count = 0;
-     while (tomas2[count] != '\0')
-     {
-         count++;
-     }
-     system("cls");
-    printf("\033[104;30m");
-     system("clear || cls");
-     printf("%s",tomas1);
-     for(int b=0; !kbhit(); b++)
-     {
-     printWithDelay(tomas2, 80000);
-     printWithDelay(tomas3, 80000);
-     printWithDelay(tomas4, 80000);
-     printWithDelay(tomas5, 80000);
-     printWithDelay(tomas6, 80000);
-     printWithDelay(tomas7, 80000);
-     printWithDelay(tomas8, 80000);
-     printWithDelay(tomas9, 80000);
-     printWithDelay(tomas10, 80000);
-     printWithDelay(tomas11, 80000);
-     printWithDelay(tomas12, 80000);
-     printWithDelay(tomas13, 80000);
-     printWithDelay(tomas14, 80000);
-
-     // Seznam funkcí
-     void (*functions[])(const char*, useconds_t) = {
-         printWithDelay,
-         printWithDelay,
-         printWithDelay,
-         printWithDelay
-     };
-
-     // Pole zpráv
-     const char* messages[] = {tomas11, tomas12, tomas13, tomas14};
-
-     // Nastavení generátoru náhodných èísel
-     srand(time(NULL));
-
-     // Provedení ètveøice funkcí 10krát v náhodném poøadí
-     for (int i = 0; i < 10; i++) {
-         // Náhodné zamíchání funkcí
-         for (int j = 3; j > 0; j--) {
-             int randomIndex = rand() % (j + 1);
-             void (*temp)(const char*, useconds_t) = functions[j];
-             functions[j] = functions[randomIndex];
-             functions[randomIndex] = temp;
-         }
-         // Volání funkcí v náhodném poøadí
-         for (int j = 0; j < 4; j++) {
-             functions[j](messages[j], 80000);
-         }
-     }
-
-     // Výpisy zpráv s mezièasem
-     printWithDelay(tomas15, 80000);
-     printWithDelay(tomas16, 80000);
-     printWithDelay(tomas17, 80000);
-     printWithDelay(tomas18, 80000);
-     printWithDelay(tomas19, 80000);
-    /* printWithDelay(tomas20, 50000);
-     printWithDelay(tomas21, 50000);
-     printWithDelay(tomas22, 50000);
-     printWithDelay(tomas23, 50000);
-     printWithDelay(tomas24, 50000);
-     printWithDelay(tomas25, 50000);
-     printWithDelay(tomas26, 50000);
-     printWithDelay(tomas27, 50000);
-     printWithDelay(tomas28, 50000);
-     printWithDelay(tomas29, 50000);
-     printWithDelay(tomas30, 50000);*/
-
-    /* printf("\033[H");
-     for(int i=0; i<count; i++)
-     {
-         printf("%c",tomas2[i]);
-     }
-     printf("\033[H");
-     for(int i=0; i<count; i++)
-     {
-         printf("%c",tomas3[i]);
-     }
-     printf("\033[H");
-     for(int i=0; i<count; i++)
-     {
-         printf("%c",tomas4[i]);
-     }
-     printf("\033[H");
-     for(int i=0; i<count; i++)
-     {
-         printf("%c",tomas5[i]);
-     }
-     printf("\033[H");
-     for(int i=0; i<count; i++)
-     {
-         printf("%c",tomas6[i]);
-     }
-     printf("\033[H");
-     for(int i=0; i<count; i++)
-     {
-         printf("%c",tomas7[i]);
-     }
-             printf("\033[H");
-     for(int i=0; i<count; i++)
-     {
-         printf("%c",tomas8[i]);
-     }
-             printf("\033[H");
-     for(int i=0; i<count; i++)
-     {
-         printf("%c",tomas9[i]);
-     }
-             printf("\033[H");
-     for(int i=0; i<count; i++)
-     {
-         printf("%c",tomas10[i]);
-     }
-             printf("\033[H");
-     for(int i=0; i<count; i++)
-     {
-         printf("%c",tomas11[i]);
-     }*/
-    /* }
-     */
 }
 void* noSurprises()
 {

@@ -7,6 +7,7 @@
 #include <windows.h>
 #include <dos.h>
 #include <pthread.h>
+#include "noSurprisses.h"
 
 typedef enum {
     Rock,

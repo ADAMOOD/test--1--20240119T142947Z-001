@@ -52,7 +52,7 @@ int main()
             PlaySong(bands[bandNum-1]);
             break;
         case 4:
-
+          //  printWithDelay(cover,80000);
             if (pthread_create(&cleenG, NULL, tomas, NULL) != 0)
             {
                 fprintf(stderr, "Chyba pøi vytváøení vlákna cleenG.\n");
