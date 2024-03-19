@@ -7,7 +7,6 @@
 #include <windows.h>
 #include <dos.h>
 #include <pthread.h>
-#include <term.h>
 
 typedef enum {
     Rock,
