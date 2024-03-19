@@ -3,18 +3,19 @@
 	"band.h"
 	<windows.h>
 
-1710775123 c:\users\kijonka\downloads\test (1)-20240119t142947z-001\test (1)\band.h
+1710866499 c:\users\kijonka\downloads\test (1)-20240119t142947z-001\test (1)\band.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<windows.h>
 	<dos.h>
 	<pthread.h>
+	<term.h>
 
 1706290797 c:\users\kijonka\downloads\test (1)-20240119t142947z-001\test (1)\band.c
 	"band.h"
 
-1710792489 source:c:\users\kijonka\downloads\test (1)-20240119t142947z-001\test (1)\band.c
+1710866384 source:c:\users\kijonka\downloads\test (1)-20240119t142947z-001\test (1)\band.c
 	"band.h"
 	"noSurprisses.h"
 	<windows.h>

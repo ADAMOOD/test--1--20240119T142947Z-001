@@ -126,137 +126,196 @@ void *cleenGuitar()
     printf("fadsfds");
     return NULL;
 }
-void printWithDelay(const char* message, useconds_t delay) {
+void printWithDelay(const char* message, useconds_t delay)
+{
     printf("\033[H");
     printf("%s", message);
-    usleep(delay); // Zpoždìní
+    usleep(delay); // ZpoÅ¾dÃ¬nÃ­
 }
 void* tomas()
 {
 
-    int count = 0;
-    while (tomas2[count] != '\0')
+       system("cls");
+    printf("\033[104;30m");
+    FILE *animationFile;
+    animationFile = fopen("tomas.TXT", "r");
+
+    if (animationFile == NULL)
     {
-        count++;
+        printf("Soubor nenalezen.\n");
+        return NULL;
     }
-    system("cls");
- printf("\033[104;30m");
-    system("clear || cls");
-    printf("%s",tomas1);
-    for(int b=0; !kbhit(); b++)
+
+    int framesNUM = 1, reader, num = 0;
+    int animationResolution[100] = {0}; // Inicializace vÅ¡ech prvkÅ¯ na 0
+
+    while ((reader = fgetc(animationFile)) != EOF)
     {
-    printWithDelay(tomas2, 80000);
-    printWithDelay(tomas3, 80000);
-    printWithDelay(tomas4, 80000);
-    printWithDelay(tomas5, 80000);
-    printWithDelay(tomas6, 80000);
-    printWithDelay(tomas7, 80000);
-    printWithDelay(tomas8, 80000);
-    printWithDelay(tomas9, 80000);
-    printWithDelay(tomas10, 80000);
-    printWithDelay(tomas11, 80000);
-    printWithDelay(tomas12, 80000);
-    printWithDelay(tomas13, 80000);
-    printWithDelay(tomas14, 80000);
-
-    // Seznam funkcí
-    void (*functions[])(const char*, useconds_t) = {
-        printWithDelay,
-        printWithDelay,
-        printWithDelay,
-        printWithDelay
-    };
-
-    // Pole zpráv
-    const char* messages[] = {tomas11, tomas12, tomas13, tomas14};
-
-    // Nastavení generátoru náhodných èísel
-    srand(time(NULL));
-
-    // Provedení ètveøice funkcí 10krát v náhodném poøadí
-    for (int i = 0; i < 10; i++) {
-        // Náhodné zamíchání funkcí
-        for (int j = 3; j > 0; j--) {
-            int randomIndex = rand() % (j + 1);
-            void (*temp)(const char*, useconds_t) = functions[j];
-            functions[j] = functions[randomIndex];
-            functions[randomIndex] = temp;
-        }
-        // Volání funkcí v náhodném poøadí
-        for (int j = 0; j < 4; j++) {
-            functions[j](messages[j], 80000);
+        animationResolution[framesNUM - 1]++;
+        if (reader == 'o')
+        {
+            framesNUM++;
         }
     }
 
-    // Výpisy zpráv s mezièasem
-    printWithDelay(tomas15, 80000);
-    printWithDelay(tomas16, 80000);
-    printWithDelay(tomas17, 80000);
-    printWithDelay(tomas18, 80000);
-    printWithDelay(tomas19, 80000);
-   /* printWithDelay(tomas20, 50000);
-    printWithDelay(tomas21, 50000);
-    printWithDelay(tomas22, 50000);
-    printWithDelay(tomas23, 50000);
-    printWithDelay(tomas24, 50000);
-    printWithDelay(tomas25, 50000);
-    printWithDelay(tomas26, 50000);
-    printWithDelay(tomas27, 50000);
-    printWithDelay(tomas28, 50000);
-    printWithDelay(tomas29, 50000);
-    printWithDelay(tomas30, 50000);*/
+    rewind(animationFile); // NÃ¡vrat na zaÄÃ¡tek souboru
 
-       /* printf("\033[H");
-        for(int i=0; i<count; i++)
-        {
-            printf("%c",tomas2[i]);
-        }
-        printf("\033[H");
-        for(int i=0; i<count; i++)
-        {
-            printf("%c",tomas3[i]);
-        }
-        printf("\033[H");
-        for(int i=0; i<count; i++)
-        {
-            printf("%c",tomas4[i]);
-        }
-        printf("\033[H");
-        for(int i=0; i<count; i++)
-        {
-            printf("%c",tomas5[i]);
-        }
-        printf("\033[H");
-        for(int i=0; i<count; i++)
-        {
-            printf("%c",tomas6[i]);
-        }
-        printf("\033[H");
-        for(int i=0; i<count; i++)
-        {
-            printf("%c",tomas7[i]);
-        }
-                printf("\033[H");
-        for(int i=0; i<count; i++)
-        {
-            printf("%c",tomas8[i]);
-        }
-                printf("\033[H");
-        for(int i=0; i<count; i++)
-        {
-            printf("%c",tomas9[i]);
-        }
-                printf("\033[H");
-        for(int i=0; i<count; i++)
-        {
-            printf("%c",tomas10[i]);
-        }
-                printf("\033[H");
-        for(int i=0; i<count; i++)
-        {
-            printf("%c",tomas11[i]);
-        }*/
+    char **animation;
+    if ((animation = (char**)malloc(sizeof(char*) * framesNUM)) == NULL)
+    {
+        printf("PamÄ›Å¥ pro pole animacÃ­ nebyla ÃºspÄ›Å¡nÄ› alokovÃ¡na.\n");
+        fclose(animationFile);
+        return NULL;
     }
+
+    for (int i = 0; i < framesNUM; i++)
+    {
+        if ((animation[i] = (char*)malloc(sizeof(char) * (animationResolution[i] + 1))) == NULL)
+        {
+            printf("PamÄ›Å¥ pro animaci %d nebyla ÃºspÄ›Å¡nÄ› alokovÃ¡na.\n", i);
+            fclose(animationFile);
+            // UvolnÃ­me pamÄ›Å¥ pÅ™ed ukonÄenÃ­m funkce
+            for (int j = 0; j < i; j++)
+            {
+                free(animation[j]);
+            }
+            free(animation);
+            return NULL;
+        }
+
+        int j = 0;
+        while ((reader = fgetc(animationFile)) != EOF && reader != 'o')
+        {
+            animation[i][j++] = reader;
+        }
+        animation[i][j] = '\0'; // PÅ™idÃ¡nÃ­ ukonÄovacÃ­ho nulovÃ©ho znaku
+    }
+    fclose(animationFile); // UzavÅ™eme soubor po jeho ÄtenÃ­
+    printf("%s",animation[1]);
+    /* int count = 0;
+     while (tomas2[count] != '\0')
+     {
+         count++;
+     }
+     system("cls");
+    printf("\033[104;30m");
+     system("clear || cls");
+     printf("%s",tomas1);
+     for(int b=0; !kbhit(); b++)
+     {
+     printWithDelay(tomas2, 80000);
+     printWithDelay(tomas3, 80000);
+     printWithDelay(tomas4, 80000);
+     printWithDelay(tomas5, 80000);
+     printWithDelay(tomas6, 80000);
+     printWithDelay(tomas7, 80000);
+     printWithDelay(tomas8, 80000);
+     printWithDelay(tomas9, 80000);
+     printWithDelay(tomas10, 80000);
+     printWithDelay(tomas11, 80000);
+     printWithDelay(tomas12, 80000);
+     printWithDelay(tomas13, 80000);
+     printWithDelay(tomas14, 80000);
+
+     // Seznam funkcÃ­
+     void (*functions[])(const char*, useconds_t) = {
+         printWithDelay,
+         printWithDelay,
+         printWithDelay,
+         printWithDelay
+     };
+
+     // Pole zprÃ¡v
+     const char* messages[] = {tomas11, tomas12, tomas13, tomas14};
+
+     // NastavenÃ­ generÃ¡toru nÃ¡hodnÃ½ch Ã¨Ã­sel
+     srand(time(NULL));
+
+     // ProvedenÃ­ Ã¨tveÃ¸ice funkcÃ­ 10krÃ¡t v nÃ¡hodnÃ©m poÃ¸adÃ­
+     for (int i = 0; i < 10; i++) {
+         // NÃ¡hodnÃ© zamÃ­chÃ¡nÃ­ funkcÃ­
+         for (int j = 3; j > 0; j--) {
+             int randomIndex = rand() % (j + 1);
+             void (*temp)(const char*, useconds_t) = functions[j];
+             functions[j] = functions[randomIndex];
+             functions[randomIndex] = temp;
+         }
+         // VolÃ¡nÃ­ funkcÃ­ v nÃ¡hodnÃ©m poÃ¸adÃ­
+         for (int j = 0; j < 4; j++) {
+             functions[j](messages[j], 80000);
+         }
+     }
+
+     // VÃ½pisy zprÃ¡v s meziÃ¨asem
+     printWithDelay(tomas15, 80000);
+     printWithDelay(tomas16, 80000);
+     printWithDelay(tomas17, 80000);
+     printWithDelay(tomas18, 80000);
+     printWithDelay(tomas19, 80000);
+    /* printWithDelay(tomas20, 50000);
+     printWithDelay(tomas21, 50000);
+     printWithDelay(tomas22, 50000);
+     printWithDelay(tomas23, 50000);
+     printWithDelay(tomas24, 50000);
+     printWithDelay(tomas25, 50000);
+     printWithDelay(tomas26, 50000);
+     printWithDelay(tomas27, 50000);
+     printWithDelay(tomas28, 50000);
+     printWithDelay(tomas29, 50000);
+     printWithDelay(tomas30, 50000);*/
+
+    /* printf("\033[H");
+     for(int i=0; i<count; i++)
+     {
+         printf("%c",tomas2[i]);
+     }
+     printf("\033[H");
+     for(int i=0; i<count; i++)
+     {
+         printf("%c",tomas3[i]);
+     }
+     printf("\033[H");
+     for(int i=0; i<count; i++)
+     {
+         printf("%c",tomas4[i]);
+     }
+     printf("\033[H");
+     for(int i=0; i<count; i++)
+     {
+         printf("%c",tomas5[i]);
+     }
+     printf("\033[H");
+     for(int i=0; i<count; i++)
+     {
+         printf("%c",tomas6[i]);
+     }
+     printf("\033[H");
+     for(int i=0; i<count; i++)
+     {
+         printf("%c",tomas7[i]);
+     }
+             printf("\033[H");
+     for(int i=0; i<count; i++)
+     {
+         printf("%c",tomas8[i]);
+     }
+             printf("\033[H");
+     for(int i=0; i<count; i++)
+     {
+         printf("%c",tomas9[i]);
+     }
+             printf("\033[H");
+     for(int i=0; i<count; i++)
+     {
+         printf("%c",tomas10[i]);
+     }
+             printf("\033[H");
+     for(int i=0; i<count; i++)
+     {
+         printf("%c",tomas11[i]);
+     }*/
+    /* }
+     */
 }
 void* noSurprises()
 {
