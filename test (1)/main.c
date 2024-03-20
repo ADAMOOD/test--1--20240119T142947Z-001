@@ -1,5 +1,6 @@
 #include "band.h"
 #include <windows.h>
+#include "okCompute.h"
 
 int main()
 {
@@ -52,7 +53,10 @@ int main()
             PlaySong(bands[bandNum-1]);
             break;
         case 4:
-          //  printWithDelay(cover,80000);
+          printf("\x1b[47m\x1b[34m");
+          printWithDelay(okComputer,80000);
+             printf("\033[H");
+          while (getchar() == '\n') {}
             if (pthread_create(&cleenG, NULL, tomas, NULL) != 0)
             {
                 fprintf(stderr, "Chyba pøi vytváøení vlákna cleenG.\n");
@@ -73,8 +77,6 @@ int main()
                 fprintf(stderr, "Chyba pøi èekání na ukonèení vlákna vocals.\n");
                 return 1;
             }
-            // tomas();
-            //noSurprises();
             break;
         case 5:
             printf("Exiting...\n");

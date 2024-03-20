@@ -1,0 +1,61 @@
+n…Genre: Unknown
+Rating: 4.70
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Isaac Wood                    |41 |f  |EVFXT  |
+|Isaac Wood                    |41 |m  |LZXVÀ  |
+************************************************
+'…Genre: Rock
+Rating: 5.11
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Georgia Ellery                |41 |m  |SBCFTC…|
+|Jonny Greenwood               |27 |f  |RIKDJ  |
+|Colin Greenwood               |50 |m  |WDJHSIK|
+|Colin Greenwood               |46 |m  |DGKGÀ  |
+|Isaac Wood                    |52 |m  |KILOR  |
+|Lewis Evans                   |44 |m  |ROTJT  |
+|Luke Mark                     |32 |f  |RJPNLC…|
+|Morgan Simpson                |52 |m  |KHN    |
+|Isaac Wood                    |60 |f  |PTFKÀ  |
+|Cameron Picton                |30 |f  |JNXCE  |
+************************************************
+*…Genre: Dubstep
+Rating: 4.85
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Matt Kwasniewski-Kelvin       |30 |f  |HIXDK  |
+|Matt Kwasniewski-Kelvin       |34 |m  |UXRRSQ…|
+|Ed O'Brien                    |37 |m  |ZAKPELE|
+|Isaac Wood                    |24 |m  |REO    |
+|Luke Mark                     |50 |f  |BDCQTÅ2éý|
+|Geordie Greep                 |32 |m  |FYTZSV¯2ßý
+|
+|Lewis Evans                   |58 |f  |JILKè²’+NŽ|
+|Colin Greenwood               |50 |m  |VIRCBLHó2ûý|
+|Isaac Wood                    |26 |f  |JCIZBZÑ2Ýý|
+************************************************
+*…Genre: Unknown
+Rating: 4.53
+
+Members:
+________________________________________________
+|%-30s|%-3s|%-3s|%-7s|
+|------------------------------|---|---|-------|
+|Morgan Simpson                |25 |m  |ELKMJBõ2ùý|
+|Ed O'Brien                    |30 |f  |ZZSEX ½2Áý(|
+|Geordie Greep                 |21 |m  |XNXDË2óý|
+|Lewis Evans                   |48 |f  |SDSMXS £2Ëý|
+|Matt Kwasniewski-Kelvin       |45 |m  |DXYBÝ2áý|
+|Lewis Evans                   |41 |m  |NJMWS ¿2Ïý |
+|Geordie Greep                 |38 |f  |BYAKMI§2×ý„|
+************************************************
